@@ -1,0 +1,50 @@
+Document RAG Assistant – Sample Knowledge Base
+==============================================
+
+About the Project
+-----------------
+The Document RAG Assistant is an AI-powered conversational application designed to let users interactively upload custom documents (PDF or TXT) and query them in natural language using context-grounded responses.
+
+Key Features
+------------
+1. Document Loading & Parsing: Supports automated parsing of uploaded PDF and TXT files via temporary file handlers.
+2. Configurable Processing: Features adjustable chunk sizes and retrieval depth controls directly in the application sidebar.
+3. Semantic Vector Indexing: Splits text with RecursiveCharacterTextSplitter and embeds data using OpenAI's text-embedding-3-small stored in ChromaDB.
+4. Grounded Question Answering: Uses gpt-4o-mini with strict system instructions to answer queries strictly based on retrieved document chunks.
+
+Technology Stack
+----------------
+- Frontend: Streamlit
+- LLM: OpenAI gpt-4o-mini
+- Embeddings: OpenAI text-embedding-3-small
+- Vector Database: ChromaDB
+- Framework: LangChain
+- Programming Language: Python
+
+Goals of Training
+-----------------
+- To gain practical experience in building Generative AI applications and Retrieval-Augmented Generation (RAG) workflows.
+- To master semantic vector search concepts, including embeddings generation, chunking strategies, and vector database indexing with ChromaDB.
+- To learn enabling interactive parameters like customizable chunk sizes and top-K retrieval.
+- To apply prompt engineering techniques and contextual constraint templates to reduce LLM hallucinations.
+- To strengthen skills in Python, API integration, document parsing, and modular AI system architectures.
+
+Future Scope
+------------
+- Multi-Document Support: Simultaneous ingestion of multi-format files (DOCX, CSV, MD).
+- Cloud Vector Databases: Integration with persistent remote stores like Pinecone or Qdrant.
+- Hybrid Search & Re-ranking: Combining BM25 keyword search with vector search and cross-encoder re-ranking.
+- Local LLM Privacy: Adding Ollama / Llama-3 support for 100% offline enterprise deployment.
+
+Institute
+---------
+Swami Keshvanand Institute of Technology, Management & Gramothan (SKIT), Jaipur.
+An Autonomous Institute Affiliated to Rajasthan Technical University, Kota.
+
+Student Details
+---------------
+Name: Kripendra Singh
+Roll No.: 23ESKCY023
+Submitted To: Shivank Lavania
+Training Partner: Rajasthan Centre of Advanced Technology (R-CAT)
+Certification: Microsoft Certified: Azure AI Engineer Associate
